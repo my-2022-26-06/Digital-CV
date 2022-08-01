@@ -20,29 +20,26 @@
 	</head>
 	<body>
 		<!-- XÂY DỰNG PHẦN ẢNH BANNER -->
-		<section id="banner">
-			<div 	class="bg-image" 
-     				style="background-image: url('./images/banner.JPG');background-size: cover;        height: 100vh; width:100vw">
- 	 			<div class="container text-center ">
-  				<div class="row">
-   					<div class="col-12 text-white  align-self-center mt-5 py-5">
-							<h1 class="text-capitalize fw-bold  text-shadow-lg pt-5 mt-5">Hoàng Thị Kim Mỹ</h1>
-							<h3 class="text-capitalize">Biên - Phiên Dịch</h3>
-   					</div>   
-  				</div>
-				</div>
-			</div>
+		<section id="banner" class="position-relative">
+			<img src="./images/banner.JPG" alt="banner" style="width:100vw; height:100vh">
+			<div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+				<h1 class="text-capitalize fw-bold mb-3">Hoàng Thị Kim Mỹ</h1>
+				<h3 class="text-capitalize">Biên - Phiên Dịch</h3>
+			</div>		
 		</section>
 		<!-- XÂY DỰNG PHẦN NAVBAR -->
 		<section id="nav-bar">
 			<nav class="navbar navbar-expand bg-light navbar-light position-relative  d-block mx-auto">
-				<!-- <div class="collapse navbar-collapse align-items-center justify-content-center position-relative" id="navmenu"> -->
-					<img src="./images/avatar.png" alt="avatar" class="border border-white border-3 rounded-circle position-absolute top-50 start-50 translate-middle d-none d-md-inline "> 
+					<img 
+					src="./images/avatar.png" 
+					alt="avatar" 
+					class="border border-white border-3 rounded-circle position-absolute top-50 start-50 translate-middle d-none d-md-inline "> 
+					
 					<ul class="navbar-nav h4 px-sm-5 mx-auto d-flex flex-column flex-sm-row  align-items-start justify-content-start align-items-sm-center justify-content-sm-center border-bottom  border-2 ">
 						<li class="nav-item p-2 border-start w-20   ">
 							<a href="#about" class="nav-link  "><i class="bi bi-person-fill text-primary mx-1"></i>Thông tin</a>
 						</li>
-						<li class="nav-item p-2  border-start border-end  w-20 me-md-5 ">
+						<li class="nav-item p-2  border-start borderr  w-20 me-md-5 ">
 							<a href="#job-info" class="nav-link"><i class="bi bi-file-earmark-text-fill text-primary mx-1"></i>Lý lịch</a>
 						</li>
 						<li class="nav-item  d-none d-md-inline mx-md-5 w-20">
@@ -52,7 +49,7 @@
 						<li class="nav-item p-2  border-start  w-20  ms-md-5 ">
 							<a href="#certificate" class="nav-link"><i class="bi bi-envelope-fill  text-primary mx-1"></i>Chứng chỉ</a>
 						</li>
-						<li class="nav-item p-2  border-start border-end w-20 ">
+						<li class="nav-item p-2  border-start borderr w-20 ">
 							<a href="#project" class="nav-link"><i class="bi bi-star-fill text-primary mx-1"></i>Dự án</a>
 						</li>
 					</ul>

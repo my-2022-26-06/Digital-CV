@@ -9,3 +9,11 @@ body {
 	max-height: 150px;
 	overflow: hidden;
 }
+@media (min-width: 768.5px) {
+	.borderr {
+		border-right: 1px solid #dee2e6;
+	}
+	.borderl {
+		border-l: 1px solid #dee2e6;
+	}
+}
