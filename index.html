@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+		<!-- style  -->
+		<link rel="stylesheet" href="./css/mobile.css" />
+		<link rel="stylesheet" href="./css/tablet.css" />		
+		<link rel="stylesheet" href="./css/laptop.css" />		
+		<link rel="stylesheet" href="./css/font.css" />
+		
+		<title>Assignment 03</title>
+	</head>
+	<body>
+		<!-- XÂY DỰNG PHẦN ẢNH BANNER -->
+		<section id="banner">
+			<div 	class="bg-image" 
+     				style="background-image: url('./images/banner.JPG');background-size: cover;        height: 100vh; width:100vw">
+ 	 			<div class="container text-center ">
+  				<div class="row">
+   					<div class="col-12 text-white  align-self-center mt-5 py-5">
+							<h1 class="text-capitalize fw-bold  text-shadow-lg pt-5 mt-5">Hoàng Thị Kim Mỹ</h1>
+							<h3 class="text-capitalize">Biên - Phiên Dịch</h3>
+   					</div>   
+  				</div>
+				</div>
+			</div>
+		</section>
+		<!-- XÂY DỰNG PHẦN NAVBAR -->
+		<section id="nav-bar">
+			<nav class="navbar navbar-expand bg-light navbar-light position-relative  d-block mx-auto">
+				<!-- <div class="collapse navbar-collapse align-items-center justify-content-center position-relative" id="navmenu"> -->
+					<img src="./images/avatar.png" alt="avatar" class="border border-white border-3 rounded-circle position-absolute top-50 start-50 translate-middle d-none d-md-inline "> 
+					<ul class="navbar-nav h4 px-sm-5 mx-auto d-flex flex-column flex-sm-row  align-items-start justify-content-start align-items-sm-center justify-content-sm-center border-bottom  border-2 ">
+						<li class="nav-item p-2 border-start w-20   ">
+							<a href="#about" class="nav-link  "><i class="bi bi-person-fill text-primary mx-1"></i>Thông tin</a>
+						</li>
+						<li class="nav-item p-2  border-start border-end  w-20 me-md-5 ">
+							<a href="#job-info" class="nav-link"><i class="bi bi-file-earmark-text-fill text-primary mx-1"></i>Lý lịch</a>
+						</li>
+						<li class="nav-item  d-none d-md-inline mx-md-5 w-20">
+							<!-- <p class="d-none">Hoàng Thị Kim Mỹ</p>
+							<p class="d-none">Biên - Phiên dịch</p> -->
+							</li>
+						<li class="nav-item p-2  border-start  w-20  ms-md-5 ">
+							<a href="#certificate" class="nav-link"><i class="bi bi-envelope-fill  text-primary mx-1"></i>Chứng chỉ</a>
+						</li>
+						<li class="nav-item p-2  border-start border-end w-20 ">
+							<a href="#project" class="nav-link"><i class="bi bi-star-fill text-primary mx-1"></i>Dự án</a>
+						</li>
+					</ul>
+
+				<!-- </div> -->
+					
+			
+			</nav>
+		</section>
+
+		<!-- XÂY DỰNG PHẦN THÔNG TIN CÁ NHÂN + MỤC TIÊU -->
+		<section id="about" class="mb-5">
+				<div class="row justify-content-center">
+					<div class="col-10 col-sm-6 bg-light pt-5 px-4">
+						<h3 class="fw-bold mb-4 ps-5">Mục tiêu nghề nghiệp</h3>
+						<div class="container  ps-5">
+							<p>
+										Phiên dịch viên không phải là nghề dễ dàng, không phải ai cũng có
+								thể làm được. Muốn trở thành Phiên dịch viên giỏi không phải chỉ cần
+								kiến thức về ngôn ngữ, văn hóa mà còn cần phải có các kỹ năng, phẩm
+								chất khác như kỹ năng giao tiếp, kỹ năng nắm bắt vấn đề, khả năng
+								chịu đựng áp lực, tính trung thực,v.v.<br />
+							<br/>
+								Phiên dịch viên là công việc mơ ước của tôi, do đó tôi hi vọng có
+								thể gắn bó với công việc này và trở thành Phiên dịch viên giỏi.
+							</p>
+						</div>
+					</div>
+					<div class="col-10 col-sm-6 pt-5 px-4">
+						<h3 class="fw-bold mb-4 ps-5">Thông tin cá nhân</h3>
+						<ul class="list-group ps-5 ">
+							<li class="list-group-item border-0 p-0"><span class="fw-bold">Giới tính</span> : Nữ</li>
+							<li class="list-group-item border-0 p-0"><span class="fw-bold">Ngày sinh</span> : 13/03/2000</li>
+							<li class="list-group-item border-0 p-0"><span class="fw-bold">Điện thoại</span> : (+84) 852246133</li>
+							<li class="list-group-item border-0 p-0"><span class="fw-bold">Email</span> : myhtkfx17831@funix.edu.vn</li>
+							<li class="list-group-item border-0 p-0"><span class="fw-bold">Địa chỉ</span> : Quảng Trị</li>
+							<li class="list-group-item border-0 p-0">
+								<span class="fw-bold">Website</span> :
+								<a href="#" class="text-dark text-decoration-none"> kimmy.com</a></>
+							</li>
+						</ul>
+						<div class="text-primary ps-5 mt-3 fs-4">
+							<i class="icon-twitter"></i>
+							<i class="icon-facebook"></i>
+							<i class="icon-gplus"></i>
+							<i class="icon-linkedin"></i>
+						</div>
+					</div>			
+		</section>
+
+		<!-- XÂY DỰNG PHẦN THÔNG TIN NGHỀ NGHIỆP -->
+		<section id="job-info" class="mb-5">		
+				
+				<!-- Laptop -->
+				<div class="row justify-content-center d-none d-md-flex">
+					<!-- Kinh nghiệm + Sở thích -->
+					<div class="col-8 col-sm-5 col-md-3 d-flex flex-column me-3">
+						<div class="my-3  p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Kinh nghiệm</div>
+								<i class="col-3 ic-toolbox fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0">
+								<ul class="list text-primary">
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">C.P. Việt Nam - Phòng Truyền Thông </p>
+											<p class="fst-italic mb-1">2022</p>
+											<p class="mb-0">- Thực tập sinh </p>
+											<p class="mb-0">- Biên dịch tài liệu liên quan đến tiếng Thái.</p>									
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Sunny Bread</p>
+											<p class="fst-italic mb-1">2021</p>
+											<p class="mb-0">- Nhân viên phục vụ </p>
+											<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Tucana</p>
+											<p class="fst-italic mb-1">2020</p>
+											<p class="mb-0">- Nhân viên phục vụ</p>
+											<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Hoàng Yến Flowers</p>
+											<p class="fst-italic mb-1">2021</p>
+											<p class="mb-0">- Nhân viên bán hàng</p>
+											<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+										</div>						
+									</li>															
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Sở thích</div>
+								<i class="col-3 ic-telescope fw-light fs-1"></i>
+							</div>
+							<div class="px-2 d-flex justify-content-center">
+								<div class="mx-1">
+									<i class="ic-megaphone text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Âm nhạc</p>
+								</div>
+								<div class="me-1">
+									<i class="ic-strategy text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Chơi game</p>
+								</div>
+								<div class="me-1">
+									<i class="ic-hotairballoon text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Du lịch</p>
+								</div>
+								<div class="me-1">
+									<i class="ic-basket text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Nấu ăn</p>
+								</div>
+							</div>									
+						</div>
+					</div>
+					<!-- Học vấn + Ngôn ngữ -->
+					<div class="col-8 col-sm-5 col-md-3 d-flex flex-column me-3">
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Học vấn</div>
+								<i class="col-3 ic-pencil fw-light fs-1 "></i>
+							</div>
+							<div class="container ps-0">
+								<ul class="list text-primary">
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">FUNiX </p>
+											<p class="fst-italic mb-1">06/2022 - <span class="text-white bg-primary rounded-pill p-1">Hiện tại</span></p>
+											<p class="mb-0">- Theo học khóa đào tạo của FUNiX</p>															
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Cử Nhân - Đại học Ngoại ngữ - Đại học Đà Nẵng</p>
+											<p class="fst-italic mb-1">08/2018 - 07/2022</p>
+											<p class="mb-0">- Chuyên ngành: Ngôn ngữ Thái Lan</p>
+											<p class="mb-0">- GPA: 3.7/4</p>									
+										</div>						
+									</li>															
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Ngôn ngữ</div>
+								<i class="col-3 ic-mic fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0  justify-content-start">
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tiếng Thái - B2</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tiếng Trung - A2</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>													
+							</div>		
+						</div>
+					</div>					
+					<!-- Hoạt động + Kỹ năng -->
+					<div class="col-8 col-sm-5 col-md-3 d-flex flex-column ">
+						<div class="my-3  p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Hoạt động</div>
+								<i class="col-3 ic-toolbox fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0">
+								<ul class="list text-primary">
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Hoạt động ở trường</p>
+											<p class="fst-italic mb-1">2018 - 2022</span></p>
+											<p class="mb-0">- Tham gia các hoạt động do Trường, Khoa tổ chức như Ngày hội
+											Thể thao, Đón Tân Sinh viên, các hoạt động liên quan đến văn hóa
+											Thái Lan như lễ hội Songkran (Tết cổ truyền Thái Lan), lễ hội
+											Loi Krathong (Thả đèn hoa đăng), Tổ chức lễ cưới Thái Lan,làm
+											các món ăn Thái Lan ...</p>															
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Hoạt động khác</p>
+											<p class="fst-italic mb-1">2018 - 2022</p>
+											<p class="mb-0">- Tham gia chương trình "Xuân Yêu Thương" do Clb iDesign tổ chức </p>
+											<p class="mb-0">- Tham gia các hoạt động xã hội như Hiến máu nhân đạo...</p>									
+										</div>						
+									</li>															
+								</ul>
+							</div>
+						</div>							
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Kỹ năng</div>
+								<i class="col-3 ic-tools-2 fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0  justify-content-start">
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tiếng Thái</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tin học Văn phòng</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>	
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">HTML</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>	
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">CSS</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>													
+							</div>		
+						</div>
+					</div>																
+				</div>
+
+				<!-- Tablet -->
+				<div class="row justify-content-center d-none d-sm-flex d-md-none">
+					<div class="col-8 col-sm-5 d-flex flex-column me-3">
+						<!-- Kinh Nghiệm -->
+						<div class="my-3 p-3 bg-light shadow border">	
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Kinh nghiệm</div>
+								<i class="col-3 ic-toolbox fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0">
+								<ul class="list text-primary">
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">C.P. Việt Nam - Phòng Truyền Thông </p>
+											<p class="fst-italic mb-1">2022</p>
+											<p class="mb-0">- Thực tập sinh </p>
+											<p class="mb-0">- Biên dịch tài liệu liên quan đến tiếng Thái.</p>									
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Sunny Bread</p>
+											<p class="fst-italic mb-1">2021</p>
+											<p class="mb-0">- Nhân viên phục vụ </p>
+											<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Tucana</p>
+											<p class="fst-italic mb-1">2020</p>
+											<p class="mb-0">- Nhân viên phục vụ</p>
+											<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Hoàng Yến Flowers</p>
+											<p class="fst-italic mb-1">2021</p>
+											<p class="mb-0">- Nhân viên bán hàng</p>
+											<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+										</div>						
+									</li>															
+								</ul>
+							</div>						
+						</div>
+						<!-- Kỹ năng -->
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Kỹ năng</div>
+								<i class="col-3 ic-tools-2 fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0  justify-content-start">
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tiếng Thái</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tin học Văn phòng</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>	
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">HTML</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>	
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">CSS</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>													
+							</div>				
+						</div>
+						<!-- Sở thích -->
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Sở thích</div>
+								<i class="col-3 ic-telescope fw-light fs-1"></i>
+							</div>
+							<div class="px-2 d-flex justify-content-center">
+								<div class="mx-1">
+									<i class="ic-megaphone text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Âm nhạc</p>
+								</div>
+								<div class="me-1">
+									<i class="ic-strategy text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Chơi game</p>
+								</div>
+								<div class="me-1">
+									<i class="ic-hotairballoon text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Du lịch</p>
+								</div>
+								<div class="me-1">
+									<i class="ic-basket text-primary border border-primary rounded-circle p-3 fs-5"></i>
+									<p>Nấu ăn</p>
+								</div>
+							</div>						
+						</div>
+					</div>	
+					<div class="col-8 col-sm-5 d-flex flex-column me-3">
+						<!-- Học vấn -->
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Học vấn</div>
+								<i class="col-3 ic-pencil fw-light fs-1 "></i>
+							</div>
+							<div class="container ps-0">
+								<ul class="list text-primary">
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">FUNiX </p>
+											<p class="fst-italic mb-1">06/2022 - <span class="text-white bg-primary rounded-pill p-1">Hiện tại</span></p>
+											<p class="mb-0">- Theo học khóa đào tạo của FUNiX</p>															
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Cử Nhân - Đại học Ngoại ngữ - Đại học Đà Nẵng</p>
+											<p class="fst-italic mb-1">08/2018 - 07/2022</p>
+											<p class="mb-0">- Chuyên ngành: Ngôn ngữ Thái Lan</p>
+											<p class="mb-0">- GPA: 3.7/4</p>									
+										</div>						
+									</li>															
+								</ul>
+							</div>							
+						</div>
+						<!-- Hoạt động -->
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Hoạt động</div>
+								<i class="col-3 ic-toolbox fw-light fs-1"></i>
+							</div>		
+							<div class="container ps-0">
+								<ul class="list text-primary">
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Hoạt động ở trường</p>
+											<p class="fst-italic mb-1">2018 - 2022</span></p>
+											<p class="mb-0">- Tham gia các hoạt động do Trường, Khoa tổ chức như Ngày hội
+											Thể thao, Đón Tân Sinh viên, các hoạt động liên quan đến văn hóa
+											Thái Lan như lễ hội Songkran (Tết cổ truyền Thái Lan), lễ hội
+											Loi Krathong (Thả đèn hoa đăng), Tổ chức lễ cưới Thái Lan,làm
+											các món ăn Thái Lan ...</p>															
+										</div>						
+									</li>
+									<li class="mb-2" >
+										<div class="text-dark">
+											<p class="fw-bold mb-0">Hoạt động khác</p>
+											<p class="fst-italic mb-1">2018 - 2022</p>
+											<p class="mb-0">- Tham gia chương trình "Xuân Yêu Thương" do Clb iDesign tổ chức </p>
+											<p class="mb-0">- Tham gia các hoạt động xã hội như Hiến máu nhân đạo...</p>									
+										</div>						
+									</li>															
+								</ul>
+							</div>				
+						</div>
+						<!-- Ngôn ngữ -->
+						<div class="my-3 p-3 bg-light shadow border">
+							<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+								<div class="col-9  ">Ngôn ngữ</div>
+								<i class="col-3 ic-mic fw-light fs-1"></i>
+							</div>
+							<div class="container ps-0  justify-content-start">
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tiếng Thái - B2</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>
+								<div class="mx-1 mb-4">								
+									<p class="mb-0 pb-0">Tiếng Trung - A2</p>
+									<div class="d-block">
+										<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+										<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									</div>
+								</div>													
+							</div>						
+						</div>
+					</div>											
+				</div>	
+
+				<!-- Mobile -->
+				<div class="row justify-content-center d-flex d-sm-none">
+					<div class="col-8  px-3 m-3 bg-light border">
+						<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+							<div class="col-9  ">Kinh nghiệm</div>
+							<i class="col-3 ic-toolbox fw-light fs-1"></i>
+						</div>
+						<div class="container ps-0">
+							<ul class="list text-primary">
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">C.P. Việt Nam - Phòng Truyền Thông </p>
+										<p class="fst-italic mb-1">2022</p>
+										<p class="mb-0">- Thực tập sinh </p>
+										<p class="mb-0">- Biên dịch tài liệu liên quan đến tiếng Thái.</p>									
+									</div>						
+								</li>
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">Sunny Bread</p>
+										<p class="fst-italic mb-1">2021</p>
+										<p class="mb-0">- Nhân viên phục vụ </p>
+										<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+									</div>						
+								</li>
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">Tucana</p>
+										<p class="fst-italic mb-1">2020</p>
+										<p class="mb-0">- Nhân viên phục vụ</p>
+										<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+									</div>						
+								</li>
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">Hoàng Yến Flowers</p>
+										<p class="fst-italic mb-1">2021</p>
+										<p class="mb-0">- Nhân viên bán hàng</p>
+										<p class="mb-0">- Rèn luyện kỹ năng giao tiếp và làm việc nhóm</p>									
+									</div>						
+								</li>															
+							</ul>
+						</div>
+					</div>
+					<div class="col-8  px-3 m-3 bg-light border">
+						<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+							<div class="col-9  ">Học vấn</div>
+							<i class="col-3 ic-pencil fw-light fs-1 "></i>
+						</div>
+						<div class="container ps-0">
+							<ul class="list text-primary">
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">FUNiX </p>
+										<p class="fst-italic mb-1">06/2022 - <span class="text-white bg-primary rounded-pill p-1">Hiện tại</span></p>
+										<p class="mb-0">- Theo học khóa đào tạo của FUNiX</p>															
+									</div>						
+								</li>
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">Cử Nhân - Đại học Ngoại ngữ - Đại học Đà Nẵng</p>
+										<p class="fst-italic mb-1">08/2018 - 07/2022</p>
+										<p class="mb-0">- Chuyên ngành: Ngôn ngữ Thái Lan</p>
+										<p class="mb-0">- GPA: 3.7/4</p>									
+									</div>						
+								</li>															
+							</ul>
+						</div>
+					</div>
+					<div class="col-8  px-3 m-3 bg-light border">
+						<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+							<div class="col-9  ">Hoạt động</div>
+							<i class="col-3 ic-toolbox fw-light fs-1"></i>
+						</div>
+						<div class="container ps-0">
+							<ul class="list text-primary">
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">Hoạt động ở trường</p>
+										<p class="fst-italic mb-1">2018 - 2022</span></p>
+										<p class="mb-0">- Tham gia các hoạt động do Trường, Khoa tổ chức như Ngày hội
+										Thể thao, Đón Tân Sinh viên, các hoạt động liên quan đến văn hóa
+										Thái Lan như lễ hội Songkran (Tết cổ truyền Thái Lan), lễ hội
+										Loi Krathong (Thả đèn hoa đăng), Tổ chức lễ cưới Thái Lan,làm
+										các món ăn Thái Lan ...</p>															
+									</div>						
+								</li>
+								<li class="mb-2" >
+									<div class="text-dark">
+										<p class="fw-bold mb-0">Hoạt động khác</p>
+										<p class="fst-italic mb-1">2018 - 2022</p>
+										<p class="mb-0">- Tham gia chương trình "Xuân Yêu Thương" do Clb iDesign tổ chức </p>
+										<p class="mb-0">- Tham gia các hoạt động xã hội như Hiến máu nhân đạo...</p>									
+									</div>						
+								</li>															
+							</ul>
+						</div>
+					</div>	
+					<div class="col-8  px-3 m-3 bg-light border">
+						<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+							<div class="col-9  ">Sở thích</div>
+							<i class="col-3 ic-telescope fw-light fs-1"></i>
+						</div>
+						<div class="px-2 d-flex justify-content-center">
+							<div class="mx-1">
+								<i class="ic-megaphone text-primary border border-primary rounded-circle p-3 fs-5"></i>
+								<p>Âm nhạc</p>
+							</div>
+							<div class="me-1">
+								<i class="ic-strategy text-primary border border-primary rounded-circle p-3 fs-5"></i>
+								<p>Chơi game</p>
+							</div>
+							<div class="me-1">
+								<i class="ic-hotairballoon text-primary border border-primary rounded-circle p-3 fs-5"></i>
+								<p>Du lịch</p>
+							</div>
+							<div class="me-1">
+								<i class="ic-basket text-primary border border-primary rounded-circle p-3 fs-5"></i>
+								<p>Nấu ăn</p>
+							</div>
+						</div>						
+					</div>			
+					<div class="col-8  px-3 m-3 bg-light border">
+						<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+							<div class="col-9  ">Ngôn ngữ</div>
+							<i class="col-3 ic-mic fw-light fs-1"></i>
+						</div>
+						<div class="container ps-0  justify-content-start">
+							<div class="mx-1 mb-4">								
+								<p class="mb-0 pb-0">Tiếng Thái - B2</p>
+								<div class="d-block">
+									<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+									<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+								</div>
+							</div>
+							<div class="mx-1 mb-4">								
+								<p class="mb-0 pb-0">Tiếng Trung - A2</p>
+								<div class="d-block">
+									<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+								</div>
+							</div>													
+						</div>						
+					</div>		
+					<div class="col-8  px-3 m-3 bg-light border">
+						<div class="row p-3 fs-3 fw-bold justify-content-between align-items-center ">
+							<div class="col-9  ">Kỹ năng</div>
+							<i class="col-3 ic-tools-2 fw-light fs-1"></i>
+						</div>
+						<div class="container ps-0  justify-content-start">
+							<div class="mx-1 mb-4">								
+								<p class="mb-0 pb-0">Tiếng Thái</p>
+								<div class="d-block">
+									<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+									<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+								</div>
+							</div>
+							<div class="mx-1 mb-4">								
+								<p class="mb-0 pb-0">Tin học Văn phòng</p>
+								<div class="d-block">
+									<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+									<div class=" bg-primary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+								</div>
+							</div>	
+							<div class="mx-1 mb-4">								
+								<p class="mb-0 pb-0">HTML</p>
+								<div class="d-block">
+									<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+								</div>
+							</div>	
+							<div class="mx-1 mb-4">								
+								<p class="mb-0 pb-0">CSS</p>
+								<div class="d-block">
+									<div class=" bg-primary border-2 rounded d-inline-block me-1 " style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+									<div class=" bg-secondary border-2 rounded d-inline-block me-1" style="height:4px; width:45px;"></div>
+								</div>
+							</div>													
+						</div>						
+					</div>																
+				</div>
+		</section>
+
+		<!-- XÂY DỰNG PHẦN CHỨNG CHỈ - GIẢI THƯỞNG -->
+		<section id="certificate" class="bg-light py-5">
+			<div class="h3 fw-bold ms-5 py-2">Chứng chỉ - Giải thưởng</div>
+			<!-- Labtop -->
+			<div class="row justify-content-start d-none d-md-flex ms-5">
+				<div class=" col-5 my-3 me-5 d-flex ">
+					<img src="./images/Cert_1.png" alt="certificate" style="width:50%; height:200px;" class="shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Bằng Cử nhân Ngôn ngữ Thái Lan</div>
+						<div>
+							- Trường Đại học Ngoại ngữ - Đại học Đà Nẵng <br/>
+							- GPA: 3.7
+						</div>
+					</div>
+				</div>
+				<div class="col-5 my-3  d-flex ps-4 border-start border-warning">
+					<img src="./images/Cert_2.png" alt="certificate" style="width:50%; height:200px;" class="shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Chứng chỉ Tin học văn phòng cơ bản</div>
+						<div>
+							- Lý thuyết: 9.0 <br/>
+								- Thực hành: 9.0
+						</div>
+					</div>
+				</div>
+				<div class="col-10 ms-3  my-3 d-flex border-bottom border-warning"></div>
+				<div class="col-5 my-3 me-5 d-flex ">
+					<img src="./images/Cert_3.png" alt="certificate" style="width:50%; height:200px;" class=" shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Chứng chỉ Hướng dẫn viên Du lịch Quốc tế</div>
+						<div>
+							- Chứng chỉ do Trường Cao đẳng Duyên Hải cấp <br/>
+							- Ngôn ngữ: Tiếng Thái
+						</div>
+					</div>
+				</div>				
+			</div>
+
+			<!-- Tablet -->
+			<div class="row justify-content-start d-none  d-sm-flex d-md-none ms-5">
+				<div class="col-5 my-3 me-5 d-flex flex-column ">
+					<img src="./images/Cert_1.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Bằng Cử nhân Ngôn ngữ Thái Lan</div>
+						<div>
+							- Trường Đại học Ngoại ngữ - Đại học Đà Nẵng <br/>
+							- GPA: 3.7
+						</div>
+					</div>
+				</div>
+				<div class="col-5 my-3  d-flex flex-column ps-4 border-start border-warning">
+					<img src="./images/Cert_2.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Chứng chỉ Tin học văn phòng cơ bản</div>
+						<div>
+							- Lý thuyết: 9.0 <br/>
+								- Thực hành: 9.0
+						</div>
+					</div>
+				</div>
+				<div class="col-10 ms-3 my-3 border-bottom border-warning text-center"></div>
+				<div class="col-5 my-3 me-5 d-flex flex-column ">
+					<img src="./images/Cert_3.png" alt="certificate" style="width:100%; height:200px;" class=" shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Chứng chỉ Hướng dẫn viên Du lịch Quốc tế</div>
+						<div>
+							- Chứng chỉ do Trường Cao đẳng Duyên Hải cấp <br/>
+							- Ngôn ngữ: Tiếng Thái
+						</div>
+					</div>
+				</div>				
+			</div>
+
+			<!-- Mobile -->
+			<div class="row justify-content-start  d-flex flex-column d-sm-none ms-5">
+				<div class="col-10 my-3 me-5 pt-3 d-flex flex-column border-bottom border-warning">
+					<img src="./images/Cert_1.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="justify-content-start p-2" ">
+						<div class="text-uppercase pb-3 fw-bolder">Bằng Cử nhân Ngôn ngữ Thái Lan</div>
+						<div>
+							- Trường Đại học Ngoại ngữ - Đại học Đà Nẵng <br/>
+							- GPA: 3.7
+						</div>
+					</div>
+				</div>
+				<div class="col-10  pt-3 my-3  d-flex flex-column  border-bottom border-warning">
+					<img src="./images/Cert_2.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Chứng chỉ Tin học văn phòng cơ bản</div>
+						<div>
+							- Lý thuyết: 9.0 <br/>
+								- Thực hành: 9.0
+						</div>
+					</div>
+				</div>
+				<div class="col-10  pt-3 my-3 me-5 d-flex flex-column flex-md-row ">
+					<img src="./images/Cert_3.png" alt="certificate" style="width:100%; height:200px;" class=" shadow-lg me-md-4">
+					<div class="justify-content-start p-2">
+						<div class="text-uppercase pb-3 fw-bolder">Chứng chỉ Hướng dẫn viên Du lịch Quốc tế</div>
+						<div>
+							- Chứng chỉ do Trường Cao đẳng Duyên Hải cấp <br/>
+							- Ngôn ngữ: Tiếng Thái
+						</div>
+					</div>
+				</div>				
+			</div> 
+		</section>
+  
+		<!-- XÂY DỰNG PHẦN DỰ ÁN -->
+
+		<section id="project" class="" style="margin:48px auto; font-size: 100%">
+			<div class="h3 fw-bold py-2 ms-5">Dự án</div>
+			<div class="row d-flex flex-column flex-sm-row justify-content-center">
+				
+				<div class=" col-10 col-sm-3 ms-5 ms-sm-0 my-4 d-flex flex-column border border-3 p-0" style="margin-right: 5%;">
+					<img src="./images/project_1.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="text-uppercase  border-top p-3 fw-bolder">CV CÁ NHÂN</div>
+					<div class="d-flex flex-column flex-sm-row  p-2  border-top border-bottom border-2 align-items-start">
+						<div class="rounded-pill px-2 py-0 bg-primary text-white me-2">2021</div>
+						<div class="d-flex flex-column flex-md-row">
+							<div class="me-2">
+								<i class="icon-user-1"></i>
+								AMEI
+							</div>
+							<div>
+								<i class="icon-lamp"></i>
+										Developer
+							</div>
+						</div>
+						
+					</div>
+					<table class="table-borderless  ">
+						<tbody >
+							<tr class=" p-2 m-2 align-top">								
+								<td class="p-2 " >Mô tả</td>
+								<td class="p-2">Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp</td>
+							</tr>
+							<tr class="border-top p-2 m-2 align-top">								
+								<td class="p-2">Nhiệm vụ</td>
+								<td class="p-2">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+							</tr>
+							<tr class="border-top p-2 m-2 align-top">
+								<td class="p-2">Công nghệ</td>
+								<td class="p-2">- HTML, CSS</td>
+							</tr>
+						</tbody>
+					</table>	
+
+					<a href="./digital-cv.html" class="text-center"><button type="button" class="btn btn-link">Project Charter</button></a>
+								
+				</div>					
+				<div class=" col-10 col-sm-3 ms-5 ms-sm-0  my-4 d-flex flex-column border border-3 p-0" style="margin-right: 5%; ">
+					<img src="./images/project_2.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="text-uppercase  border-top p-3 fw-bolder">TRANG WEB QUẢN LÝ THÚ CƯNG</div>
+					<div class="d-flex flex-column flex-sm-row  p-2  border-top border-bottom border-2 align-items-start">
+						<div class="rounded-pill px-2 py-0 bg-primary text-white me-2">2021</div>
+						<div class="d-flex flex-column flex-md-row">
+							<div class=" me-2">
+								<i class="icon-user-1"></i>
+								AMEI
+							</div>
+							<div>
+								<i class="icon-lamp"></i>
+										Developer
+							</div>
+						</div>
+						
+					</div>
+					<table class="table-borderless  ">
+						<tbody >
+							<tr class=" p-2 m-2 align-top">								
+								<td class="p-2 " >Mô tả</td>
+								<td class="p-2">Trang Web quản lý thú cưng cá nhân. Gồm các thông tin về thú cưng cũng như tài liệu có liên quan.</td>
+							</tr>
+							<tr class="border-top p-2 m-2 align-top">								
+								<td class="p-2">Nhiệm vụ</td>
+								<td class="p-2">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+							</tr>
+							<tr class="border-top p-2 m-2 align-top">
+								<td class="p-2">Công nghệ</td>
+								<td class="p-2">- HTML, CSS</td>
+							</tr>
+						</tbody>
+					</table>			
+					
+					<a href="./digital-cv.html" class="text-center"><button type="button" class="btn btn-link">Project Charter</button></a>
+				</div>	
+				<div class=" col-10 col-sm-3 ms-5 ms-sm-0 my-4 d-flex flex-column border border-3 p-0" style="">
+					<img src="./images/project_3.png" alt="certificate" style="width:100%; height:200px;" class="shadow-lg me-md-4">
+					<div class="text-uppercase  border-top p-3 fw-bolder">TRANG WEB XEM TIN TỨC</div>
+					<div class="d-flex flex-column flex-sm-row p-2  border-top border-bottom border-2 align-items-start">
+						<div class="rounded-pill px-2 py-0 bg-primary text-white me-2">2021</div>
+						<div class="d-flex flex-column flex-md-row">
+							<div class="me-2">
+								<i class="icon-user-1"></i>
+								AMEI
+							</div>
+							<div>
+								<i class="icon-lamp"></i>
+										Developer
+							</div>
+						</div>
+						
+					</div>
+					<table class="table-borderless  ">
+						<tbody >
+							<tr class=" p-2 m-2 align-top">								
+								<td class="p-2 " >Mô tả</td>
+								<td class="p-2">Trang Web xem tin tức. Gồm các thông tin nổi bất trong và ngoài nước.</td>
+							</tr>
+							<tr class="border-top p-2 m-2 align-top">								
+								<td class="p-2">Nhiệm vụ</td>
+								<td class="p-2">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+							</tr>
+							<tr class="border-top p-2 m-2 align-top">
+								<td class="p-2">Công nghệ</td>
+								<td class="p-2">- HTML, CSS</td>
+							</tr>
+						</tbody>
+					</table>		
+					
+					<a href="./digital-cv.html" class="text-center"><button type="button" class="btn btn-link">Project Charter</button></a>
+				</div>	
+			</div>
+		</section>
+
+		<!-- XÂY DỰNG PHẦN THÔNG TIN LIÊN HỆ -->
+		<footer class=" p-4 bg-light text-secondary text-center" style="margin:0 10% auto 10%">
+			<div class="container p-2 d-flex justify-content-center align-items-center" style="font-size:100%;">				
+					<div class="">
+						<i class="icon-facebook-circled text-primary"></i>
+						Facebook
+					</div>
+					<div class="mx-3">
+						<i class="icon-linkedin-circled text-primary "></i>
+						LinkedIn
+					</div>
+					<div class="">
+						<i class="icon-github-circled text-primary "></i>
+						Github
+					</div>			
+			</div>
+		</footer>	
+		<!-- Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
